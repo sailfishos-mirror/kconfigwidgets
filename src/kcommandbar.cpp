@@ -305,9 +305,11 @@ public:
     {
     }
 
-    void paint(QPainter *painter, const QStyleOptionViewItem &option, const QModelIndex &index) const override
+    void paint(QPainter *painter, const QStyleOptionViewItem &opt, const QModelIndex &index) const override
     {
         // draw background
+        QStyleOptionViewItem option = opt;
+        initStyleOption(&option, index);
         option.widget->style()->drawPrimitive(QStyle::PE_PanelItemViewItem, &option, painter);
 
         const QString shortcutString = index.data().toString();
