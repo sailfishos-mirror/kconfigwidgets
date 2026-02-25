@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kconfigwidgets\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-08 00:39+0000\n"
+"POT-Creation-Date: 2026-02-25 00:42+0000\n"
 "PO-Revision-Date: 2025-05-27 20:26+0100\n"
 "Last-Translator: Kizito Birabwa <kbirabwa@yahoo.co.uk>\n"
 "Language-Team: Luganda\n"
@@ -44,12 +44,12 @@ msgstr "Yevumbulire"
 msgid "Color Scheme"
 msgstr "Nteekateeka ya Langi"
 
-#: kcommandbar.cpp:658
+#: kcommandbar.cpp:660
 #, kde-format
 msgid "No commands to display"
 msgstr "Tewali biragiro binaalagibwa"
 
-#: kcommandbar.cpp:660
+#: kcommandbar.cpp:662
 #, kde-format
 msgid "No commands matching the filter"
 msgstr "Ekisunsuzibwa kibulidwa biragiro bye kikwasa"
